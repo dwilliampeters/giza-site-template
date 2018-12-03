@@ -35,5 +35,5 @@ gulp.task("javascript", function() {
   return gulp
     .src("./js/app.js")
     .pipe(webpackStream(webpackConfig, webpack))
-    .pipe(gulp.dest("./_build/js"));
+    .pipe(gulp.dest("./_build/assets/js"));
 });
