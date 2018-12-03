@@ -16,7 +16,8 @@
   },
   "prettier": {},
   "dependencies": {
-    "giza-framework": "*"
+    "giza-framework": "0.0.3",
+    "gulp-if": "^2.0.2"
   },
   "devDependencies": {
     "prettier": "^1.14.2",
