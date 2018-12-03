@@ -6,7 +6,7 @@ yarn
 yarn start
 ```
 
-## Production
+## Production (WIP)
 ```bash
 yarn dist
 ```
