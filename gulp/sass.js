@@ -27,5 +27,6 @@ gulp.task("sass", function() {
       ])
     )
     .pipe(sourcemaps.write("."))
-    .pipe(gulp.dest("./_build/assets/css"));
+    .pipe(gulpif(!global.production, gulp.dest("./_build/assets/css")))
+    .pipe(gulpif(global.production, gulp.dest("./dist/assets/css")));
 });
