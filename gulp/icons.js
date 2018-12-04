@@ -1,4 +1,5 @@
 var gulp = require("gulp");
+var gulpif = require("gulp-if");
 var svgstore = require("gulp-svgstore");
 
 gulp.task("icons", function() {
