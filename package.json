@@ -1,7 +1,7 @@
 {
   "name": "giza-site-template",
   "version": "0.0.1",
-  "description": "Frontend (Fender) site template",
+  "description": "Frontend site template",
   "license": "MIT",
   "engines": {
     "node": ">=6.11.1",
